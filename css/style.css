@@ -1,0 +1,21 @@
+table {
+  font-family: Jost, sans-serif;
+  font-size: 20px;
+  border-spacing: 20px;
+  table-layout: fixed;
+  width: 100%;
+  max-width: 800px;
+}
+td{
+  text-align: center;
+}
+
+#unit{
+  color: blue;
+  font-size: 70%;
+}
+
+#super {
+  font-size: 70%;
+  vertical-align: 7px;
+}
