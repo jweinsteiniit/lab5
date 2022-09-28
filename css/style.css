@@ -1,21 +1,43 @@
 table {
   font-family: Jost, sans-serif;
   font-size: 20px;
-  border-spacing: 20px;
+  border-spacing: 2px;
   table-layout: fixed;
   width: 100%;
   max-width: 800px;
 }
 td{
   text-align: center;
+  table-layout: fixed;
+  height: 60px;
+}
+/*
+.leftcol{
+  background-color: #7FBCD2;
 }
 
-#unit{
+.mercury{
+  background-color: #F0EABE;
+}
+
+.earth{
+  background-color: #21E1E1;
+}
+
+.mars{
+  background-color: #3B9AE1;
+}
+
+.neptune{
+  background-color: #3120E0;
+}
+*/
+.unit{
   color: blue;
   font-size: 70%;
 }
 
-#super {
+.super {
   font-size: 70%;
   vertical-align: 7px;
 }
