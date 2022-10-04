@@ -2,6 +2,14 @@ body{
   background-color: black;
   background-image: url("../images/background.jpg");
 }
+h1{
+  font-family: Jost, sans-serif;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
 table {
   font-family: Jost, sans-serif;
   font-size: 20px;
@@ -11,6 +19,9 @@ table {
   max-width: 800px;
   color: white;
   position: relative;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .mercury{
   background-color: rgba(120,120,120,0.5);
