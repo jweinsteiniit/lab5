@@ -5,15 +5,26 @@ body{
 table {
   font-family: Jost, sans-serif;
   font-size: 20px;
-  border-spacing: 2px;
+  border-spacing: 20px;
   table-layout: fixed;
   width: 100%;
   max-width: 800px;
   color: white;
   position: relative;
 }
-
-#image{
+.mercury{
+  background-color: rgba(120,120,120,0.5);
+}
+.earth{
+  background-color: rgba(14,161,51,0.5)
+}
+.mars{
+  background-color: rgba(171,59,44,0.5)
+}
+.neptune{
+  background-color: rgba(36,19,214,0.5)
+}
+.image{
   height: 60px;
   position: relative;
 }
@@ -21,30 +32,10 @@ td{
   text-align: center;
   table-layout: fixed;
   height: 60px;
+  border-radius: 5px;
 }
-/*
-.leftcol{
-  background-color: #7FBCD2;
-}
-
-.mercury{
-  background-color: #F0EABE;
-}
-
-.earth{
-  background-color: #21E1E1;
-}
-
-.mars{
-  background-color: #3B9AE1;
-}
-
-.neptune{
-  background-color: #3120E0;
-}
-*/
 .unit{
-  color: blue;
+  color: #3870ff;
   font-size: 70%;
 }
 
