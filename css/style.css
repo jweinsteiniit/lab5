@@ -9,6 +9,8 @@ h1{
   text-align: center;
   margin: 0px;
   padding: 0px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 table {
   font-family: Jost, sans-serif;
